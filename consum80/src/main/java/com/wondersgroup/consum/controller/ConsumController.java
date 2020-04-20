@@ -18,7 +18,7 @@ public class ConsumController {
     @Autowired
     private ConsumService consumService;
 
-/*
+
     @GetMapping("/consum/getMessage")
     @HystrixCommand(fallbackMethod = "error",commandProperties = {
             @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="3000")//超时配置
@@ -27,7 +27,7 @@ public class ConsumController {
         log.info("80消费者调用");
         return consumService.getMessage();
     }
-*/
+
 
     @GetMapping("/consum/getMessage")
     @HystrixCommand
