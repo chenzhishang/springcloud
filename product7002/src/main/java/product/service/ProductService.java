@@ -12,6 +12,10 @@ public class ProductService {
     @Value("${server.port}")
     private  String serverPort;
 
+    public String eurekaTest(){
+        return "eureka测试：我是生产者"+serverPort;
+    }
+
     @HystrixCommand(fallbackMethod = "error")
     public String getMessage(){
         try {

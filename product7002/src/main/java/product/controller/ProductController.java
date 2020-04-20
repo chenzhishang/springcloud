@@ -5,12 +5,20 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import product.service.ProductService;
 
+import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 @RestController
 public class ProductController {
-    @Autowired
+    @Resource
     private ProductService productService;
+
+    @GetMapping("eurekaTest")
+    public String eurekaTest(){
+        return productService.eurekaTest();
+    }
+
+
     @GetMapping("getMessage")
     public String getMessage(){
 //        try {
