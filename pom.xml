@@ -10,11 +10,11 @@
     <modules>
         <module>eureka8001</module>
         <module>eureka8002</module>
-        <module>consum80</module>
-        <module>consum81</module>
+        <module>consum9001</module>
+        <module>consum9002</module>
         <module>product7001</module>
         <module>product7002</module>
-        <module>zuul9001</module>
+        <module>zuul80</module>
     </modules>
 
 

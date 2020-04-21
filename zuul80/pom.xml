@@ -10,9 +10,9 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wondersgroup</groupId>
-    <artifactId>zuul9001</artifactId>
+    <artifactId>zuul80</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zuul9001</name>
+    <name>zuul</name>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
