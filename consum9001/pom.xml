@@ -10,7 +10,7 @@
         <relativePath /> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wondersgroup</groupId>
-    <artifactId>consum9002</artifactId>
+    <artifactId>consum9001</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>consum</name>
     <properties>
