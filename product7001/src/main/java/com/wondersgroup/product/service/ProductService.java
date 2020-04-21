@@ -11,9 +11,27 @@ public class ProductService {
     @Value("${server.port}")
     private  String serverPort;
 
+    public String eurekaTest(){
+      return "eureka测试：我是生产者"+serverPort;
+    }
+
+    public String feignTest(){
+      return "feign测试：我是生产者"+serverPort;
+    }
+
+    public String openFeignTest(){
+      return "openFeign测试：我是生产者"+serverPort;
+    }
+
+    public String hystrixTest(){
+      return "hystrix测试：我是生产者"+serverPort;
+    }
+
+    public String zuulTest(){
+      return "zuul测试：我是生产者"+serverPort;
+    }
     /**
      * 服务熔断配置默认类 com.netflix.hystrix.HystrixCommandProperties
-     * @return
      */
     @HystrixCommand(fallbackMethod = "error",commandProperties = {
             @HystrixProperty(name="circuitBreaker.enabled",value="true"), //是否开启熔断
