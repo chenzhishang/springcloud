@@ -20,11 +20,12 @@ zuul:
   ignored-services: '*'
   prefix: /springcloud #对外接口加上同统一的前缀
   routes:
-    consum:  #路由名称 随便写
-      path: /client/** #服务的路径的映射名字
-      service-id: consum #被访问的应用
+    #consum:  #路由名称 随便写
+     # path: /client/** #服务的路径的映射名字
+      #service-id: consum #被访问的应用
    # product:  #路由名称 随便写
      # path: /server/** #服务的路径的映射名字
       #service-id: product #被访问的应用
     product: /server/**
+    consum: /client/**
 
