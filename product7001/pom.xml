@@ -12,7 +12,7 @@
 <groupId>com.wondersgroup</groupId>
 <artifactId>product7001</artifactId>
 <version>0.0.1-SNAPSHOT</version>
-<name>product7001</name>
+<name>product</name>
 <properties>
     <java.version>1.8</java.version>
     <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
